@@ -8,6 +8,7 @@ provider "aws" {
 terraform {
   backend "s3" {
     bucket  = "saraawsglue"
+
     key     = "atlantis/terraform.tfstate"
     region  = "us-east-2"
     profile = "default"
