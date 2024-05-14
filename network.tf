@@ -3,7 +3,7 @@ resource "aws_vpc" "TF_VPC" {
   cidr_block = "10.0.0.0/16"
 
   tags = {
-    Name = "TF_VPC"
+    Name = "Atlantis_TF_VPC"
     
   }
 }

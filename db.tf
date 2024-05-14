@@ -24,6 +24,6 @@ resource "aws_db_instance" "tf_database" {
   vpc_security_group_ids = [aws_security_group.DB_sg.id]
 
   tags = {
-    Name = "tf_database"
+    Name = "tf_database_atlantis"
   }
 }
